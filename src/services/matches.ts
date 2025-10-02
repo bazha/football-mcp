@@ -117,7 +117,7 @@ export async function getLiveMatches(): Promise<string> {
 }
 
 /**
- * Get matches by date range (FREE FEATURE)
+ * Get matches by date range
  * @param dateFrom - Start date in YYYY-MM-DD format
  * @param dateTo - End date in YYYY-MM-DD format
  * @returns Promise<string> - Formatted string with matches

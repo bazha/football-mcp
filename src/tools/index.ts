@@ -4,10 +4,12 @@ import { registerGetTeamNextMatch } from "./registerGetTeamNextMatch";
 import { registerGetLiveMatches } from "./registerGetLiveMatches";
 import { registerGetTeamResults } from "./registerGetTeamResults";
 import { registerGetTeamInfo } from "./registerGetTeamInfo";
+import { registerGetMatchesByDate } from "./registerGetMatchesBydate";
 
 export const registerAllTools = (server: McpServer) => {
   registerGetTeamNextMatch(server);
   registerGetLiveMatches(server);
   registerGetTeamResults(server);
   registerGetTeamInfo(server);
+  registerGetMatchesByDate(server);
 };
